@@ -1,3 +1,16 @@
 body {
-    
+    background-color: #383c4a;
+    color: 	#3c919c;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    font: 64px helvetica, sans-serif;
+}
+
+p {
+    font: 16px helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
