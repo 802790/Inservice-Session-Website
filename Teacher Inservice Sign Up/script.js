@@ -318,7 +318,7 @@ const sessions = [
     "Presenter(s)": "Lindsay Denny-Learning A-Z",
     "Grade": "Elementary Instructional Specialist",
     "Building": 4747,
-    "Area of Focus": "Supporting students in grades K-2     LITERACY",
+    "Area of Focus": "Supporting students in grades K-2 LITERACY",
     "Title": "Guiding Early Reading with Learning A-Z",
     "Description": "Join us to learn about Learning A-Z early reading resources for K-2. Raz Plus and Reading A-Z include many resources beyond leveled books! Phonological awareness lessons, high frequency word books, readers' theater scripts, and sound/symbol books are just some of the resources you will want to use for all your students this year. This session also introduces particpants to the exciting new program updates as well as our Journeys correlation. Please bring a laptop or chromebook to participate in this session. These resources will support all learners in the area of literacy.",
     "Intended Audience": "K-2 Teachers, Special Education Teachers, or anyone with a Raz Kids account"
@@ -327,7 +327,7 @@ const sessions = [
     "Presenter(s)": "Lindsay Denny-Learning A-Z",
     "Grade": "Elementary Instructional Specialist",
     "Building": 4747,
-    "Area of Focus": "Supporting students in grades 3-5        LITERACY",
+    "Area of Focus": "Supporting students in grades 3-5 LITERACY",
     "Title": "Making Content Area Connections with Learning A-Z",
     "Description": "Join us to learn about Learning A-Z resources for grades 3-5. Raz Plus and Reading A-Z include many resources beyond leveled books that you can use to support content are connections and building 21st century reading skills! Argumentation and comprehension skill packs, paired books, visual devices, and informational texts are just some of the resources you will want to use this year. This session also introduces participants to the exciting new program updates as well as our Journeys correlation. Please bring a laptop or Chromebook to participate in this session. These resources will support all learners in the area of literacy.",
     "Intended Audience": ""
@@ -336,7 +336,7 @@ const sessions = [
     "Presenter(s)": "Lindsay Denny-Learning A-Z",
     "Grade": "Elementary Instructional Specialist",
     "Building": 4747,
-    "Area of Focus": "Supporting students in grades K-5       LITERACY",
+    "Area of Focus": "Supporting students in grades K-5 LITERACY",
     "Title": "Blasting off with Learning A-Z",
     "Description": "Are you new to Learning A-Z? In this beginners's session, we will cover the basics of navigating the teacher and student portals of Kids A-Z. Particpants will learn to access our Journeys correlation and how to find, organize, and assign resources. For Raz Kids and Raz Plas users, we will review how to manage your student roster and customize the student experience. We will also explore our exciting new progam updates. Please bring a laptop or Chromebook to participate in this session. These resources will support all learners in the area of literacy.",
     "Intended Audience": ""
@@ -345,7 +345,7 @@ const sessions = [
     "Presenter(s)": "Lindsay Denny",
     "Grade": "Elementary Instructional Specialist",
     "Building": 4747,
-    "Area of Focus": "Curriculum Chat with Grades 3-5         All Areas",
+    "Area of Focus": "Curriculum Chat with Grades 3-5 All Areas",
     "Title": "",
     "Description": "This is an opportunity for teachers to discuss current curriculum and future curriculum need and changes.",
     "Intended Audience": ""
