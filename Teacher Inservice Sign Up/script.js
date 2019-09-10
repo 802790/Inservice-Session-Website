@@ -11,7 +11,8 @@ fetch("sessions.json")
 function createCards(){
 let container = document.createElement('div')
 container.innerHTML = sessions.map(session => 
-`<h3>${session.Title}</h3>
+`<div>
+<h3>${session.Title}</h3>
 <p>${session['Description']}</p>
 </div>`
                                   ).join('')
