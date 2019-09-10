@@ -3,6 +3,7 @@ body {
     color: 	#3c919c;
     padding-left: 100px;
     padding-right: 100px;
+     
 }
 
 h1 {
@@ -14,6 +15,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 article div div {
     max-width: 500px;
     border: 1px solid black;
@@ -27,4 +29,5 @@ article div {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    
 } 
