@@ -1,5 +1,9 @@
 let sessions
 
+let cartCount = 0
+
+let inCart = []
+
 function loadPage(){
 fetch("sessions.json")
     .then(response => response.json())
@@ -11,7 +15,7 @@ fetch("sessions.json")
 function createCards(){
 let container = document.createElement('div')
 container.innerHTML = sessions.map(session => 
-`<div>
+`<div ${session.Spots > 0 ? '' : 'class="empty"'}>
 <h2>${session.Title}</h2>
 
 <h3>${session["Area of Focus"]}</h3>
@@ -25,7 +29,9 @@ container.innerHTML = sessions.map(session =>
 <h5>${session['Intended Audience']}</h5>
 
 <h5>${session['Building']}</h5>
-<button onclick="addToCart('${session['Title']}')">Sign Up</button>
+<button 
+    ${session.Spots <= 0 ? 'disabled' : ''}
+    onclick="addToCart('${session['Title']}')">Sign Up</button>
 </div>`
                                   ).join('')
 document.querySelector('article')
@@ -33,9 +39,25 @@ document.querySelector('article')
 }
 
 function addToCart(sessionName) {
-    let item = document.createElement('li')
-    item.innerHTML = sessionName
+        if (!inCart.includes(sessionName)) {
+            inCart.push(sessionName)
+            let item = document.createElement('li')
+            item.innerHTML = sessionName
 
-    document.querySelector('ul#cart')
-        .append(item)
+            document.querySelector('ul#cart')
+                .append(item)
+
+            cartCount++
+            let cartCountElem = document.querySelector('span#cartCount')
+            cartCountElem.textContent = cartCount
+            if (cartCount >= 3) {
+                cartCountElem.style.backgroundColor = "green"
+            }
+            else if (cartCount > 0) {
+                cartCountElem.style.backgroundColor = "aqua"
+            }
+        else {
+            alert("You have already added this session to your cart.")
+        }
+     }
 }

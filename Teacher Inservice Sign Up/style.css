@@ -29,5 +29,9 @@ article div {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    }
+
+div.empty {
+    background-color: #343b4c;
     
 } 
