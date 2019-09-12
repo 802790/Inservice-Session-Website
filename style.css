@@ -1,0 +1,37 @@
+body {
+    background-color: #343b4c;
+    color: 	#3c919c;
+    padding-left: 100px;
+    padding-right: 100px;
+     
+}
+
+h1 {
+    font: 64px helvetica, sans-serif;
+}
+
+p {
+    font: 16px helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+article div div {
+    max-width: 500px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 5px;
+    display: block;
+}
+article div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    }
+
+div.empty {
+    background-color: #383c4a;
+    
+} 
